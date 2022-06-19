@@ -4,8 +4,8 @@ let nav = document.getElementById("navbar");
 
 // nav.innerHTML = navbar();
 // let API = "d9d7edd3af2441ee96c35fd33a06b1e5";
-let API = "0c5a1082633244ce98b67785cc0c9daf";
-// let API = "83e8a12689114d099bf8098dcd203273";
+// let API = "0c5a1082633244ce98b67785cc0c9daf";
+let API = "83e8a12689114d099bf8098dcd203273";
 search();
 
 async function search() {
@@ -208,8 +208,8 @@ function displayright(arr2) {
 //-----------------------------------------------------------------------------------------------------------------
 
 // UCm7lHFkt2yB_WzL67aruVBQ
-let api_key = "AIzaSyC9zC6_-FNcRDzqwg-peisdsLXO8hQHuJA";
-// const api_key = "AIzaSyCQv3shWsyxkPhUUaGcsgU--ETmG6wc5Mg";
+// let api_key = "AIzaSyC9zC6_-FNcRDzqwg-peisdsLXO8hQHuJA";
+const api_key = "AIzaSyCQv3shWsyxkPhUUaGcsgU--ETmG6wc5Mg";
 
 async function data() {
   try {

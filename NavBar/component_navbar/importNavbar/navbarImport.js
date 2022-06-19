@@ -114,7 +114,7 @@ const navbar = () => {
                   />
                 </div>
                 <div id="freeTrail">
-                  <a href="/subscribe_page/sub.html">Start 15 Days free Trail</a>
+                  <a href="./subscribe_page/sub.html">Start 15 Days free Trail</a>
                 </div>
               </div>
             </div>
@@ -125,7 +125,7 @@ const navbar = () => {
     </div>
     <div id="bottom">
       <div id="options">
-        <a class="Bivek" id="home" href="../index.html">Home</a>
+        <a class="Bivek" id="home" href="./index.html">Home</a>
         <a class="apu" id="latest" href="#">Latest</a>
         <a class="apu" id="india" href="#">India</a>
         <a class="apu" id="world" href="#">World</a>
