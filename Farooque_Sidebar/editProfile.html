@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Edit Profile</title>
+    <link rel="stylesheet" href="styles/editProfile.css" />
+  </head>
+  <body>
+    <nav>
+      <img
+        src="https://images.livemint.com/sso/newLogos/prod/ht_logo.svg?v2"
+        alt=""
+        class="logo"
+      />
+    </nav>
+    <p>
+      <a href="../index.html"><i class="fa-solid fa-arrow-left"></i> Go back</a>
+    </p>
+    <h2>Edit Profile</h2>
+    <form id="form">
+      <div>
+        <input type="text" id="name" placeholder="Change my Name" />
+        <i class="fa-solid fa-pen"></i>
+      </div>
+      <div>
+        <p>Email cannot be changed</p>
+        <p id="email"></p>
+      </div>
+      <div>
+        <input type="text" id="number" placeholder="Contact Number" />
+        <i class="fa-solid fa-pen"></i>
+      </div>
+      <div>
+        <input type="password" id="password" placeholder="Change Password" />
+        <i class="fa-solid fa-pen"></i>
+      </div>
+      <div>
+        <select id="gender">
+          <option>Gender</option>
+          <option value="male">Male</option>
+          <option value="female">Female</option>
+        </select>
+      </div>
+      <div>
+        <input id="submit" type="submit" value="Change Details" />
+      </div>
+    </form>
+  </body>
+</html>
+<script
+  src="https://kit.fontawesome.com/7e4208235c.js"
+  crossorigin="anonymous"
+></script>
+<script type="module" src="./scripts/editProfile.js"></script>
