@@ -40,7 +40,7 @@ function rightSidebarAppend() {
 // edit profile
 let editProfile = () => {
   console.log("eidt profile");
-  window.location.href = "/Farooque_Sidebar/editProfile.html";
+  window.location.href = "../HindustanNews/Farooque_Sidebar/editProfile.html";
 };
 document.getElementById("editProfile").addEventListener("click", editProfile);
 //sign out
