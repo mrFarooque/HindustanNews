@@ -114,7 +114,7 @@ const navbar = () => {
                   />
                 </div>
                 <div id="freeTrail">
-                  <a href="../HindustanNews/subscribe_page/sub.html">Start 15 Days free Trail</a>
+                  <a href="/subscribe_page/sub.html">Start 15 Days free Trail</a>
                 </div>
               </div>
             </div>

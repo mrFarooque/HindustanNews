@@ -89,14 +89,14 @@ if (check) {
 } else {
   divContent.onclick = () => {
     // My Account import here;
-    window.location.href = "../../HindustanNews/loginSignup/sigin.html";
+    window.location.href = "/loginSignup/sigin.html";
   };
 }
 
 // Subscribe page href link;
 document.getElementById("Subscribe").onclick = () => {
   // Subscribition page link here;
-  window.location.href = "../../HindustanNews/subscribe_page/sub.html";
+  window.location.href = "/subscribe_page/sub.html";
 };
 
 let link = document.querySelectorAll("#options a");
