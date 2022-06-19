@@ -1,0 +1,16 @@
+1 => use this link in the head for the icon;
+<link
+  rel="stylesheet"
+  href="https://cdn-uicons.flaticon.com/uicons-bold-rounded/css/uicons-bold-rounded.css"
+/>
+
+2 => use this tag for the navbar append;
+<div id="navbar"></div>
+
+3 => use this in the script for the navbar function;
+<script src="./component_navbar/navbarScript/navbar.js" type="module"></script>
+
+4 => for the css style of navbar use this css link;
+<link rel="stylesheet" href="./component_navbar/navbarStyle/navbar.css" />
+
+5 => for the example use the navbar.html live server output;

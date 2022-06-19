@@ -1,0 +1,293 @@
+* {
+  /* display: none; */
+  padding: 0%;
+  margin: 0%;
+  font-family: Lato, sans-serif;
+  text-decoration: none;
+}
+
+button {
+  cursor: pointer;
+}
+#navbar {
+  /* display: none; */
+  position: sticky;
+  top: 0;
+}
+
+#upper {
+  background-color: hsl(196, 95%, 8%);
+  color: white;
+  height: 100px;
+}
+
+#content {
+  display: flex;
+  justify-content: space-between;
+  height: inherit;
+  width: 72%;
+  margin: auto;
+}
+
+#leftBarTop {
+  display: flex;
+}
+
+.fi,
+strong {
+  cursor: pointer;
+  margin-left: 4px;
+}
+
+.accH {
+  display: none;
+}
+
+.accH:hover {
+  color: #00b1cd;
+}
+
+.topBar {
+  margin-top: 20px;
+  width: 90px;
+  font-size: 14px;
+}
+
+#searchBar {
+  height: 20px;
+  background-color: hsl(196, 95%, 8%);
+  border-left: none;
+  border-top: none;
+  border-right: none;
+  color: white;
+  font-weight: 700;
+  font-size: 14px;
+  outline: none;
+  display: none;
+}
+#bottom {
+  box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px,
+    rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+  background-color: white;
+}
+
+#bottom div {
+  height: 40px;
+  width: 79%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#bottom div a {
+  font-size: 14px;
+  font-weight: 700;
+  /* color: black; */
+  padding: 10px 14px;
+  background-color: white;
+}
+
+#bottom div a:nth-child(11),
+#bottom div a:last-child {
+  padding: 5px 5px;
+}
+#bottom div a:hover {
+  color: #00b1cd;
+  border-bottom: 3px solid #00b1cd;
+}
+
+.hightlight {
+  /* background-color: red; */
+  color: red;
+  font-size: 20px;
+  font-weight: 700;
+}
+
+#date {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 23px;
+  margin-left: -20px;
+}
+
+#leftBarBottom {
+  margin-top: 20px;
+  display: flex;
+}
+
+.just {
+  margin-top: 16px;
+  display: flex;
+  justify-content: end;
+}
+#leftBarBottom p {
+  margin-top: 3px;
+  margin-left: 5px;
+  margin-right: 5px;
+  height: 13px;
+  width: 2px;
+  background: rgba(255, 255, 255, 0.5);
+}
+
+#weather {
+  font-size: 14px;
+  font-weight: 400;
+}
+
+#weather img {
+  height: 12px;
+}
+
+#center {
+  text-align: center;
+  /* width: 47%; */
+}
+#center img {
+  margin-top: 25px;
+  height: 50px;
+}
+
+.hide {
+  display: flex;
+}
+
+#rightSide > div {
+  display: flex;
+}
+
+#rightSide > div div {
+  text-align: center;
+}
+
+#rightSide > div:last-child {
+  text-align: right;
+}
+
+#rightSide > div:nth-child(2) {
+  margin-top: 10px;
+  font-size: 14px;
+  font-weight: 400;
+  flex-direction: row-reverse;
+}
+
+#rightSide > div > div:last-child {
+  padding: 5px;
+}
+
+#rightSide > div > button {
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: 700;
+  padding: 3px 5px;
+  border-radius: 5px;
+}
+
+#invisible {
+  font-size: 14px;
+  position: absolute;
+  width: 390px;
+  -webkit-box-shadow: 3px 3px 20px 0 rgb(0 0 0 / 31%);
+  -moz-box-shadow: 3px 3px 20px 0 rgba(0, 0, 0, 0.31);
+  -o-box-shadow: 3px 3px 20px 0 rgba(0, 0, 0, 0.31);
+  box-shadow: 3px 3px 20px 0rgba (0, 0, 0, 0.31);
+  height: 312px;
+  background-color: #fff;
+  top: 75px;
+  display: none;
+  border-radius: 4px;
+  padding: 20px 15px;
+  color: #424242;
+  margin-top: 10px;
+  background: rgb(255, 255, 255);
+}
+
+#invisible::before {
+  content: "";
+  width: 0;
+  height: 0;
+  border-left: 5px solid transparent;
+  border-right: 5px solid transparent;
+  border-bottom: 5px solid #f3f3f3;
+  position: absolute;
+  top: -5px;
+  right: 32px;
+}
+#rightSide > div > button:hover + #invisible {
+  display: block;
+}
+
+#invisible:hover {
+  display: block;
+}
+
+#Enjoy {
+  color: #001e29;
+  padding: 0 0 3px;
+  font-size: 18px;
+  font-weight: 900;
+}
+.subList {
+  padding-top: 15px;
+  max-width: 230px;
+}
+
+.items {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.icon {
+  width: 19px;
+  flex-shrink: 0;
+  margin-right: 10px;
+}
+
+#fi {
+  background-color: #f3f3f3;
+}
+.name span {
+  text-align: left;
+  display: block;
+  color: #001e29;
+  font-weight: 700;
+  /* padding-left: -0px; */
+}
+
+#premiumImg {
+  position: absolute;
+  right: 0;
+  width: 168px;
+  top: 97px;
+}
+
+#premiumImg img {
+  width: 100%;
+}
+
+#freeTrail {
+  width: 390px;
+  display: flex;
+  justify-content: center;
+}
+
+#freeTrail a {
+  display: inline-block;
+  background-color: #00b1cd;
+  padding: 10px 52px;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #fff;
+  border-radius: 2px;
+}
+
+.Bivek {
+  color: #00b1cd;
+  border-bottom: 3px solid #00b1cd;
+}
+
+.apu {
+  color: black;
+  border-bottom: none;
+}
