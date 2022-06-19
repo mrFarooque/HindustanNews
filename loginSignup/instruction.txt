@@ -1,0 +1,3 @@
+// connect sign-in page with the sign-in button
+
+// ./script/siginConfirm last line read it for the idea of were to connect the page

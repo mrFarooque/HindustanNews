@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Confirm Page</title>
+    <link rel="stylesheet" href="./style/siginConfirm.css" />
+  </head>
+  <body>
+    <div id="navbar">
+      <img
+        src="https://images.livemint.com/sso/newLogos/prod/ht_logo.svg?v2"
+        alt=""
+      />
+      <h1 id="false">Validate OTP & Enter Your password</h1>
+      <h1 id="true">Enter Your password</h1>
+      <div id="box">
+        <div>
+          <p id="id"></p>
+          <strong>Enter OTP<span>*</span></strong>
+          <div id="input">
+            <input type="text" class="in" maxlength="1" />
+            <input type="text" class="in" maxlength="1" />
+            <input type="text" class="in" maxlength="1" />
+            <input type="text" class="in" maxlength="1" />
+            <input type="text" class="in" maxlength="1" />
+            <input type="text" class="in" maxlength="1" />
+          </div>
+          <div id="resend">
+            <p id="reset">Resend OTP</p>
+            <p id="time"></p>
+          </div>
+          <div id="space"></div>
+          <strong>Enter Your Password<span>*</span></strong>
+          <div class="pass">
+            <input
+              type="password"
+              class="password"
+              placeholder="Enter Your Password"
+            />
+          </div>
+          <strong>Confirm Password<span>*</span></strong>
+          <div class="pass">
+            <input
+              type="password"
+              class="password"
+              placeholder="Confirm Password"
+            />
+          </div>
+          <div>
+            <button id="btn">Verify Credentials</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
+<script src="./script/siginConfirm.js"></script>
