@@ -1,5 +1,5 @@
 import { sidebar, rightSidebar } from "../components/sidebar.js";
-import { getWeather } from "../../Bivek_Navbar/Hidustan_Times_Unit_3_Project/component_navbar/importNavbar/navbarImport.js";
+import { getWeather } from "../../NavBar/component_navbar/importNavbar/navbarImport.js";
 console.log("hello from farooque");
 // var user =JSON.parse(localStorage.getItem("user"))
 // let user = {
@@ -40,7 +40,7 @@ function rightSidebarAppend() {
 // edit profile
 let editProfile = () => {
   console.log("eidt profile");
-  window.location.href = "/Farooque_Sidebar/editProfile.html";
+  window.location.href = "../HindustanNews/Farooque_Sidebar/editProfile.html";
 };
 document.getElementById("editProfile").addEventListener("click", editProfile);
 //sign out

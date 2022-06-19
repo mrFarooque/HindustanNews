@@ -29,10 +29,11 @@ input.oninput = () => {
             alert("Payment Successful");
             setTimeout(() => {
               // home Page link here
-              window.location.href = "../../index.html";
+              window.location.href = "../index.html";
             }, 2000);
           } else {
             alert("Invalid OTP");
+            window.location.reload();
           }
         };
       };
