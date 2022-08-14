@@ -16,3 +16,7 @@
 
 * Clone this repository [ link ](https://github.com/mrFarooque/HindustanNews) and host it in your local sever using index.html
 * Netlify [ link ](https://clonehindustantimes.netlify.app/)
+
+## Snapshots
+
+![Home Page]()
