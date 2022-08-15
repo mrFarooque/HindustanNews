@@ -19,4 +19,10 @@
 
 ## Snapshots
 
-![Home Page]()
+![Home Page](./projectImg/HomePage.png)
+
+![Subscrition Page](./projectImg/Subsrciption.png)
+
+![Sign-in Page](./projectImg/Sign_in.png)
+
+![Payment Page](./projectImg/payment.png)

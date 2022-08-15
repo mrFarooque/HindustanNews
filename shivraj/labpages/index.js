@@ -105,7 +105,7 @@ async function searchnews(id) {
   try {
     console.log(id);
     let response = await fetch(
-      `https://newsapi.org/v2/everything?q=${id}&from=2022-06-16&sortBy=popularity&apiKey=${API}`
+      `https://newsapi.org/v2/everything?q=${id}&from=2022-08-01&sortBy=popularity&apiKey=${API}`
     );
 
     let data = await response.json();
@@ -126,7 +126,7 @@ searchnewsleft();
 async function searchnewsleft() {
   try {
     let response = await fetch(
-      `https://newsapi.org/v2/everything?q=latest&from=2022-06-16&sortBy=popularity&apiKey=${API}`
+      `https://newsapi.org/v2/everything?q=latest&from=2022-08-01&sortBy=popularity&apiKey=${API}`
     );
 
     let data = await response.json();
@@ -171,7 +171,7 @@ searchnewsright();
 async function searchnewsright() {
   try {
     let response = await fetch(
-      `https://newsapi.org/v2/everything?q=top&from=2022-06-16&sortBy=popularity&apiKey=${API}`
+      `https://newsapi.org/v2/everything?q=top&from=2022-08-01&sortBy=popularity&apiKey=${API}`
     );
 
     let data = await response.json();
